@@ -19,11 +19,14 @@
 <% if @project.tasks.any? %>
 <h2>Tasks</h2>
 
-<table>
+<table  class="table table-striped">
   <tr>
     <th>Title</th>
     <th>Description</th>
     <th>Status</th>
+    <th></th>
+    <th></th>
+    <th></th>
   </tr>
 
 <% @project.tasks.each do |task| %>

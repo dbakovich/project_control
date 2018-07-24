@@ -1,12 +1,14 @@
 <% if @project.any? %>
-<h1>Here they are! Our projects!</h1>
-<h5>Just look at them..what a beauty!</h5>
-  <table>
+<h1 class="text-center">Here they are! Our projects!</h1>
+<h5 class="text-center">Just look at them..what a beauty!</h5>
+  <table class="table table-striped">
   <tr>
     <th>Name</th>
     <th>Summary</th>
     <th>Start date</th>
     <th>End date</th>
+    <th></th>
+    <th></th>
     <th></th>
   </tr>
 
@@ -17,8 +19,8 @@
       <td><%= project.start_date %></td>
       <td><%= project.end_date %></td>
       <td>| <%= link_to 'Show it!', project_path(project) %> |</td>
-      <td> <%= link_to 'Edit it!', edit_project_path(project) %> |</td>
-      <td> <%= link_to 'Destroy', project_path(project),
+      <td>| <%= link_to 'Edit it!', edit_project_path(project) %> |</td>
+      <td>| <%= link_to 'Destroy', project_path(project),
                       method: :delete,
                       data: { confirm: 'Are you sure?' } %> |</td>
     </tr>

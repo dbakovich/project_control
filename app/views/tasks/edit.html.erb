@@ -1,37 +1,38 @@
-<h2>Edit task:</h2>
+<h2 class="text-center">Edit task:</h2>
 
+<div class="row align-items-center justify-content-center">
 <%= form_with(model: [ @project, @task], local: true) do |form| %>
   <% if @task.errors.any? %>
     <div id="error_explanation">
-      <h2>Ouch!
+      <h2 class="text-center">Ouch!
         <%= pluralize(@task.errors.count, "error") %> prohibited
         this task from being saved:
       </h2>
-      <ul>
+      <ul class="text-center">
         <% @task.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
+          <li class="text-center"><%= msg %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
-  <p>
+  <p class="text-center">
     <%= form.label :title %><br>
     <%= form.text_field :title %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :description %><br>
     <%= form.text_area :description %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :status %><br>
     <%= form.text_field :status %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.submit %>
   </p>
 <% end %>
+</div>
 
 
-
-<%= link_to 'Back', projects_path %>
+<p class="text-center"><%= link_to 'Back', projects_path %></p>

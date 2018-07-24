@@ -1,41 +1,43 @@
-<h1>Good decision!</h1>
+<h1 class="text-center">Good decision!</h1>
 
-<h2>Add a task:</h2>
+<h2 class="text-center">Add a task:</h2>
 
+<div class="row align-items-center justify-content-center">
 <%= form_with(model: [ @project, @project.tasks.build], local: true) do |form| %>
   <% if @project.errors.any? %>
     <div id="error_explanation">
-      <h2>Ouch!
+      <h2 class="text-center">Ouch!
         <%= pluralize(@project.errors.count, "error") %> prohibited
         this task from being saved:
       </h2>
-      <ul>
+      <ul class="text-center">
         <% @project.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-          <h3>Notice that:</h3>
-          <li>Title's length must be min 4 characters.</li>
-          <li>Description's length could be max 50 characters.</li>
-          <li>Each field can't be blank.</li>
-          <li>Status value only could be 'new', 'inprogress' or 'done'.</li>
+          <li class="text-center"><%= msg %></li>
+          <h3 class="text-center">Notice that:</h3>
+          <li class="text-center">Title's length must be min 4 characters.</li>
+          <li class="text-center">Description's length could be max 50 characters.</li>
+          <li class="text-center">Each field can't be blank.</li>
+          <li class="text-center">Status value only could be 'new', 'inprogress' or 'done'.</li>
         <% end %>
       </ul>
     </div>
   <% end %>
-  <p>
+  <p class="text-center">
     <%= form.label :title %><br>
     <%= form.text_field :title %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :description %><br>
     <%= form.text_area :description %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :status %><br>
     <%= form.text_field :status %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.submit %>
   </p>
 <% end %>
+</div>
 
-<%= link_to 'Back', projects_path %>
+<p class="text-center"><%= link_to 'Back', projects_path %></p>

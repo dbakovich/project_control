@@ -12494,3 +12494,2202 @@ Processing by ProjectsController#index as HTML
 Completed 200 OK in 53ms (Views: 42.4ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-24 18:49:09 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 316ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "@import ": expected file to import (string or url()), was "‘bootstrap’;"):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___734588683361297583_31775020'
+Started GET "/" for 127.0.0.1 at 2018-07-24 18:49:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/config
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/images
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actioncable-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/activestorage-5.2.0/app/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actionview-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___734588683361297583_70058451175960'
+Started GET "/" for 127.0.0.1 at 2018-07-24 18:49:55 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/config
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/images
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actioncable-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/activestorage-5.2.0/app/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actionview-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___734588683361297583_70058449452140'
+Started GET "/" for 127.0.0.1 at 2018-07-24 18:50:20 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/config
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/images
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actioncable-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/activestorage-5.2.0/app/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actionview-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___734588683361297583_70058447420620'
+Started GET "/" for 127.0.0.1 at 2018-07-24 18:50:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery3' with type 'application/javascript'
+Checked in these paths: 
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/config
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/images
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/app/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.5.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actioncable-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/activestorage-5.2.0/app/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.5.1/gems/actionview-5.2.0/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.5.1/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /home/dmitry/Documents/railsprojects/projectcontrol/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___734588683361297583_70058441193320'
+Started GET "/" for 127.0.0.1 at 2018-07-24 18:55:21 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3140ms (Views: 3129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 18:55:27 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 104ms (Views: 66.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 18:55:29 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (72.8ms)
+  Rendered projects/new.html.erb within layouts/application (82.2ms)
+Completed 200 OK in 163ms (Views: 128.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 18:55:31 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 54ms (Views: 51.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:01:24 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 211ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "@import ": expected file to import (string or url()), was "‘bootstrap’;"):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:16
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___4439461533718092473_40887700'
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:01:46 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6409ms (Views: 6396.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:01:56 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 59ms (Views: 50.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:01:59 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (12.7ms)
+  Rendered projects/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 76ms (Views: 56.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 19:02:10 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dAP3ewb8hKkzFNWvn2HFJLGW7pw9ipgrBjjrJgL1zwGkiEkVokPpecDF/MN8wWECY0gESs8ZwJO729Byrcc7EA==", "project"=>{"name"=>"kl", "summary"=>"kl", "start_date"=>"2018-07-02", "end_date"=>""}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.3ms)
+  Rendered projects/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 64ms (Views: 58.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:03:24 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".tab { ... ": expected "{", was "}"):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:26
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2530498190384918669_37817540'
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:04:18 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".tab { ... ": expected "{", was "}"):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:26
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__169012805994925640_29033980'
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:08:29 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4927ms (Views: 4915.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:08:40 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 59ms (Views: 46.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:08:43 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (11.9ms)
+  Rendered projects/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 70ms (Views: 56.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:11:43 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4729ms (Views: 4718.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:11:56 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 58ms (Views: 46.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:14:18 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 4889ms (Views: 4877.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:14:25 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 65ms (Views: 56.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:14:27 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (12.5ms)
+  Rendered projects/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 76ms (Views: 56.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 19:14:34 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7i5wKJbSn/lczgt8ogV0CQVgNC/7/lAq4iuerw1+6Rs+pc5GMm3yKa8fIhBBpdAv177e+QltCJJfyKX7okwdCg==", "project"=>{"name"=>"aasd", "summary"=>"asd", "start_date"=>"2018-07-10", "end_date"=>"2018-07-10"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (5.0ms)
+  Rendered projects/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 114ms (Views: 108.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 19:14:37 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LdlquXF/KYkZ2/3RyVroPAv7QtW4wu8iNNUHOoRvus/jdjqiXzUW9jRSbzJLUWg7ChMFpcQPNVoJHaG1pcLaQQ==", "project"=>{"name"=>"aasds", "summary"=>"asd", "start_date"=>"2018-07-10", "end_date"=>"2018-07-10"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[36mProject Create (1.1ms)[0m  [1m[32mINSERT INTO "projects" ("name", "summary", "start_date", "end_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "aasds"], ["summary", "asd"], ["start_date", "2018-07-10"], ["end_date", "2018-07-10"], ["created_at", "2018-07-24 16:14:37.903766"], ["updated_at", "2018-07-24 16:14:37.903766"]]
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (217.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 224ms (ActiveRecord: 218.6ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 19:14:38 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.8ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (50.9ms)
+Completed 200 OK in 130ms (Views: 95.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:14:39 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:16:58 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 3389ms (Views: 3387.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:17:09 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:17:13 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 19:17:28 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:17:33 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 106ms (Views: 103.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:20:06 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 3485ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "* Bootstrap v4.": expected class name, was "0.0-beta (https..."):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:21
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2482742890461556272_70305950401380'
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:27:24 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...in="anonymous">": expected "{", was ""):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:27
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2482742890461556272_70305950135860'
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:29:20 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:29:22 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 49ms (Views: 45.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:30:03 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 3539ms (Views: 3537.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:30:11 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:30:25 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 460ms (Views: 436.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:33:49 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 298ms (Views: 287.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:33:52 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 76ms (Views: 67.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:34:20 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (2.6ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 98ms (Views: 93.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:34:35 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:34:41 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:35:20 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:13
+  Rendered projects/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 81ms (Views: 78.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:36:26 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 72ms (Views: 70.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:36:50 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 69ms (Views: 66.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:37:59 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:38:04 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (25.9ms)
+  Rendered projects/new.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 19:38:14 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ovG2S87tWB+SIcqoUrx8IUYYpE03ye4q0aiLg2nLa0RyegglalI1z2Hw48SxHNgHlMZOm8VatpJsS7DXxvmfVQ==", "project"=>{"name"=>"dsasdsa", "summary"=>"sad", "start_date"=>"2018-07-17", "end_date"=>"2018-07-03"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[36mProject Create (0.9ms)[0m  [1m[32mINSERT INTO "projects" ("name", "summary", "start_date", "end_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "dsasdsa"], ["summary", "sad"], ["start_date", "2018-07-17"], ["end_date", "2018-07-03"], ["created_at", "2018-07-24 16:38:14.067967"], ["updated_at", "2018-07-24 16:38:14.067967"]]
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (104.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+Redirected to http://localhost:3000/projects/2
+Completed 302 Found in 115ms (ActiveRecord: 105.6ms)
+
+
+Started GET "/projects/2" for 127.0.0.1 at 2018-07-24 19:38:14 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 2], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 63ms (Views: 58.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:38:16 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:46:29 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:47:09 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:47:13 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:48:03 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:48:12 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/projects/2" for 127.0.0.1 at 2018-07-24 19:48:19 +0300
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3zaM6TLjJBOz0fPuMt/BJRQFNMwmzTxu/V7KZ9ONRyARmdzyHKkbbJ5YYQ2w1EEiFe1zvFoA5hbAlmzo8iAnrg==", "id"=>"2"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 2]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mProject Destroy (2.0ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[35m (73.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 82ms (ActiveRecord: 76.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:48:19 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/projects/1" for 127.0.0.1 at 2018-07-24 19:48:22 +0300
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ASJtnDKKoft8EUzOXjJRzQ8i/Hwx2DWz6oUhh42BFQHPjT2HHMCehFGY3i3cOdHKDsq7DE0V78vXTYcIrCx1jw==", "id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 1]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mProject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[35m (144.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 154ms (ActiveRecord: 145.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:48:22 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:48:27 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.0ms)
+  Rendered projects/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 19:48:38 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"daElyi7BClXKIW8mLLDPI0EjtN5Kttta+qleX499UMKlKpukin5nhTnwRkrPEGsFk/1eCLglg+JHSmULIE+k0w==", "project"=>{"name"=>"ZXsad", "summary"=>"ZX", "start_date"=>"2018-07-03", "end_date"=>"2018-07-10"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[36mProject Create (1.0ms)[0m  [1m[32mINSERT INTO "projects" ("name", "summary", "start_date", "end_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "ZXsad"], ["summary", "ZX"], ["start_date", "2018-07-03"], ["end_date", "2018-07-10"], ["created_at", "2018-07-24 16:48:38.030500"], ["updated_at", "2018-07-24 16:48:38.030500"]]
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (110.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+Redirected to http://localhost:3000/projects/3
+Completed 302 Found in 118ms (ActiveRecord: 112.0ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2018-07-24 19:48:38 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 3], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:48:39 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2018-07-24 19:50:42 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 3], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 71ms (Views: 66.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/3/tasks/new" for 127.0.0.1 at 2018-07-24 19:50:49 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"3"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 170ms (Views: 129.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/projects/3/tasks" for 127.0.0.1 at 2018-07-24 19:50:55 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5BVTMCix8+OAEZDlqsdAykwPfqDnpQIWQxgfseRNg+WDhWPLsY0iW0Vdk26/9QFV+lwwdw5/F8P1I67I8UwjVg==", "task"=>{"title"=>"asdasd", "description"=>"asd", "status"=>"new"}, "commit"=>"Create Task", "project_id"=>"3"}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[36mTask Create (1.1ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "description", "status", "project_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "asdasd"], ["description", "asd"], ["status", "new"], ["project_id", 3], ["created_at", "2018-07-24 16:50:55.537677"], ["updated_at", "2018-07-24 16:50:55.537677"]]
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (127.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+Redirected to http://localhost:3000/projects/3
+Completed 302 Found in 142ms (ActiveRecord: 128.9ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2018-07-24 19:50:55 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 3], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 3]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:51:04 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (1.8ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 57ms (Views: 53.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2018-07-24 19:51:09 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 3], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 3]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 62ms (Views: 58.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:55:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:55:40 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/projects/3" for 127.0.0.1 at 2018-07-24 19:55:44 +0300
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4oWkKQYXOXHAd9oH6qKh+wis1XEW6BO3dGcTibUsQlosKvQyKF0GDu3+SORoqSH8CUSSAWolyc9Jr7UGlIEi1A==", "id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 3]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."task_id" = ?[0m  [["task_id", 1]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mTask Destroy (0.3ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mProject Destroy (0.2ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[35m (151.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 201ms (ActiveRecord: 153.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:55:44 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:55:46 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.9ms)
+  Rendered projects/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 19:55:54 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c3iBbEsBlrL8qBgyZriqYm0kTmzwLidw0z/PaaR8L4Cj8z8C7777Yg95MV6FGA5Ev/qkugK9f8hu3PQ9C07bkQ==", "project"=>{"name"=>"fffsad", "summary"=>"asd", "start_date"=>"2018-07-17", "end_date"=>"2018-06-26"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[36mProject Create (1.4ms)[0m  [1m[32mINSERT INTO "projects" ("name", "summary", "start_date", "end_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "fffsad"], ["summary", "asd"], ["start_date", "2018-07-17"], ["end_date", "2018-06-26"], ["created_at", "2018-07-24 16:55:54.585834"], ["updated_at", "2018-07-24 16:55:54.585834"]]
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (161.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+Redirected to http://localhost:3000/projects/4
+Completed 302 Found in 168ms (ActiveRecord: 162.6ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 19:55:54 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/4/tasks/new" for 127.0.0.1 at 2018-07-24 19:55:56 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-24 19:57:42 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 19:57:44 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:57:46 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (3.3ms)
+  Rendered projects/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:57:55 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (3.5ms)
+  Rendered projects/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:58:51 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (3.8ms)
+  Rendered projects/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:59:21 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (3.8ms)
+  Rendered projects/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:59:38 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.7ms)
+  Rendered projects/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 19:59:54 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.1ms)
+  Rendered projects/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:00:23 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (12.8ms)
+  Rendered projects/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:00:37 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.4ms)
+  Rendered projects/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:00:54 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.7ms)
+  Rendered projects/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:02:09 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.1ms)
+  Rendered projects/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:03:09 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (4.0ms)
+  Rendered projects/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:03:19 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:03:24 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (3.6ms)
+  Rendered projects/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 20:03:30 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"446qldmGmc69NlK6Lz5rM3cKC1Iz6MfUIbdLN5KZXVszBRT7fTn0Hk7ne9bMns8VpdThhMF7n2ycVHBjPaupSg==", "project"=>{"name"=>"jkljkl", "summary"=>"jkj", "start_date"=>"", "end_date"=>""}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (5.3ms)
+  Rendered projects/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 67ms (Views: 61.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 20:04:06 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KCAsy8TLTqhiDFEauoVQItcNSVRu1YuGRmKulpQRm4/mj3zQ6oFx10+Fw/k4jtAl1uUOJBIYUf57qggZtbz7AQ==", "project"=>{"name"=>"jkljkl", "summary"=>"jkj", "start_date"=>"2018-07-09", "end_date"=>""}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (5.6ms)
+  Rendered projects/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 20:04:10 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+L/eBBzrcEzSZDQegEjFsi0pzMG0Q53ZrW/9WRJyHqc2EI4fMqFPM//tpv0CQ0W1LMGLsciOR6GQp1vWM99+KQ==", "project"=>{"name"=>"jkljkl", "summary"=>"jkj", "start_date"=>"2018-07-09", "end_date"=>"2018-07-17"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[36mProject Create (0.4ms)[0m  [1m[32mINSERT INTO "projects" ("name", "summary", "start_date", "end_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "jkljkl"], ["summary", "jkj"], ["start_date", "2018-07-09"], ["end_date", "2018-07-17"], ["created_at", "2018-07-24 17:04:10.757008"], ["updated_at", "2018-07-24 17:04:10.757008"]]
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+Redirected to http://localhost:3000/projects/5
+Completed 302 Found in 82ms (ActiveRecord: 75.5ms)
+
+
+Started GET "/projects/5" for 127.0.0.1 at 2018-07-24 20:04:10 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 5], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/5/tasks/new" for 127.0.0.1 at 2018-07-24 20:04:13 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"5"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:04:14 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:04:16 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 52ms (Views: 49.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:05:13 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects/4/tasks/new" for 127.0.0.1 at 2018-07-24 20:05:14 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"4"}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/4/tasks/new" for 127.0.0.1 at 2018-07-24 20:07:15 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 86ms (Views: 83.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/projects/4/tasks" for 127.0.0.1 at 2018-07-24 20:07:19 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pLusduhs+VoRAK/4YZgArOfR/BqG4stAFdZqsX/QOmZqFPxtxibGJTyJPRvjk4Cr5jm7avovETgoHsw+Xn1a6A==", "task"=>{"title"=>"", "description"=>"", "status"=>""}, "commit"=>"Create Task", "project_id"=>"4"}
+  [1m[36mProject Load (0.9ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 107ms (Views: 88.9ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/projects/4/tasks" for 127.0.0.1 at 2018-07-24 20:07:40 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wUK0Yf0baiaS021BIP7raJgvcvlggRaNmQJHbdhD80AP7eR601FVWb9a/6Ki9Wtvmcc1iRxMzPWkyuHi+e6Tzg==", "task"=>{"title"=>"jkljkljkl", "description"=>"kjl", "status"=>""}, "commit"=>"Create Task", "project_id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (2.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 64ms (Views: 50.7ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/projects/4/tasks" for 127.0.0.1 at 2018-07-24 20:07:46 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NDZDZCid3kjp24fED65ZMTDbbcwkb0ONoOt9258dafX6mRN/BtfhN8RSFSeNpdk2MTMqvFiimfWdI9tUvrAJew==", "task"=>{"title"=>"asdasd", "description"=>"asdasd", "status"=>"new"}, "commit"=>"Create Task", "project_id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[36mTask Create (1.0ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "description", "status", "project_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "asdasd"], ["description", "asdasd"], ["status", "new"], ["project_id", 4], ["created_at", "2018-07-24 17:07:46.369176"], ["updated_at", "2018-07-24 17:07:46.369176"]]
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (221.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+Redirected to http://localhost:3000/projects/4
+Completed 302 Found in 231ms (ActiveRecord: 222.8ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:07:46 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 4]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/projects/2/tasks/4/edit" for 127.0.0.1 at 2018-07-24 20:09:27 +0300
+Processing by TasksController#edit as HTML
+  Parameters: {"project_id"=>"2", "id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:13
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 4], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:14
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 65ms (Views: 60.4ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/projects/4/tasks/2" for 127.0.0.1 at 2018-07-24 20:09:31 +0300
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OgNFvj7Co5bBW1P+m56+jHkfjqRhW50LrS8UqBAEF3RbggzN9aFOQMXwEVfQstYLFw9WSWX8TeeBNt7xRJ5K0w==", "task"=>{"title"=>"asd", "description"=>"asdasd", "status"=>"new"}, "commit"=>"Update Task", "project_id"=>"4", "id"=>"2"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:28
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 4], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:31
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/tasks_controller.rb:31
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 69ms (Views: 53.6ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/projects/4/tasks/2" for 127.0.0.1 at 2018-07-24 20:09:59 +0300
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5jsnBdM4Bg9SVtnWabVKTS4ltMwo7DCh44h0kq1STGIolHce/XI5cH/fSzXrvspKL83zvFQh6tneQNIdjP8s7A==", "task"=>{"title"=>"asddgdf", "description"=>"asdasd", "status"=>"new"}, "commit"=>"Update Task", "project_id"=>"4", "id"=>"2"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:28
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 4], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:31
+  [1m[36mTask Update (1.2ms)[0m  [1m[33mUPDATE "tasks" SET "title" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["title", "asddgdf"], ["updated_at", "2018-07-24 17:09:59.902912"], ["id", 2]]
+  ↳ app/controllers/tasks_controller.rb:31
+  [1m[35m (137.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:31
+Redirected to http://localhost:3000/projects/4
+Completed 302 Found in 147ms (ActiveRecord: 139.6ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:10:00 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 4]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/projects/4/tasks/2" for 127.0.0.1 at 2018-07-24 20:10:03 +0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"R01tkFFttbjqRX7ijA2aiEwUYFNjH+C0IMsryJDNRzOJ4j2LfyeKx8fM7AEOBhqPTfwnIx/SOswdA41HsWAnvQ==", "project_id"=>"4", "id"=>"2"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:39
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 4], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:40
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."task_id" = ?[0m  [["task_id", 2]]
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[36mTask Destroy (0.3ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[35m (61.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:41
+Redirected to http://localhost:3000/projects/4
+Completed 302 Found in 76ms (ActiveRecord: 62.6ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:10:03 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 48ms (Views: 45.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/4/tasks/new" for 127.0.0.1 at 2018-07-24 20:10:06 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/projects/4/tasks" for 127.0.0.1 at 2018-07-24 20:10:13 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BWHAM6Eak6mlxClHcBaPI9ODKqUErCX6bTXNgPx27zobQAfBWa2xGR65xIMohYEfJgl+sXQ18Tb1whDM7G5EPw==", "task"=>{"title"=>"sdfsdf", "description"=>"sdfsdf", "status"=>"new"}, "commit"=>"Create Task", "project_id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[36mTask Create (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "description", "status", "project_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "sdfsdf"], ["description", "sdfsdf"], ["status", "new"], ["project_id", 4], ["created_at", "2018-07-24 17:10:13.784510"], ["updated_at", "2018-07-24 17:10:13.784510"]]
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (112.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+Redirected to http://localhost:3000/projects/4
+Completed 302 Found in 128ms (ActiveRecord: 114.0ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:10:13 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 4]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/projects/3/tasks/4" for 127.0.0.1 at 2018-07-24 20:10:15 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"project_id"=>"3", "id"=>"4"}
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:4
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 4], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:5
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."task_id" = ? LIMIT ?[0m  [["task_id", 3], ["LIMIT", 1]]
+  ↳ app/views/tasks/show.html.erb:17
+  Rendered tasks/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 63ms (Views: 51.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/projects/4/tasks/3/users/new" for 127.0.0.1 at 2018-07-24 20:11:47 +0300
+Processing by UsersController#new as HTML
+  Parameters: {"project_id"=>"4", "task_id"=>"3"}
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 67ms (Views: 62.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/projects/4/tasks/3/users" for 127.0.0.1 at 2018-07-24 20:11:52 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IBkHaiRDRdpkJ4abq3eF0+xBUZFy7MWd8cuK714qcoiIQITrWafAil4ljPu6aAVDdxLinczJqqIV3/ukV9azVQ==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "admin"=>""}, "commit"=>"Create User", "project_id"=>"4", "task_id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 74ms (Views: 54.0ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/projects/4/tasks/3/users" for 127.0.0.1 at 2018-07-24 20:12:02 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uwJJkXEp9zrB9IKNMEjJVOV15SQHk2zznG3atRrC5M91rRmKX2PIRex9EG6yQ0lT5J2iVHtetouhpXw6O2+EQQ==", "user"=>{"first_name"=>"k", "last_name"=>"k", "email"=>"k", "password"=>"[FILTERED]", "admin"=>"true"}, "commit"=>"Create User", "project_id"=>"4", "task_id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 68ms (Views: 46.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:12:08 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.4ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects/5" for 127.0.0.1 at 2018-07-24 20:12:11 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 5], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:12:12 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 72ms (Views: 69.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:12:13 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 4]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 56ms (Views: 52.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/projects/3/tasks/4" for 127.0.0.1 at 2018-07-24 20:12:15 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"project_id"=>"3", "id"=>"4"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:4
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 4], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:5
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."task_id" = ? LIMIT ?[0m  [["task_id", 3], ["LIMIT", 1]]
+  ↳ app/views/tasks/show.html.erb:17
+  Rendered tasks/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 50ms (Views: 45.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/projects/4/tasks/3/users/new" for 127.0.0.1 at 2018-07-24 20:12:16 +0300
+Processing by UsersController#new as HTML
+  Parameters: {"project_id"=>"4", "task_id"=>"3"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 63ms (Views: 58.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/projects/4/tasks/3/users" for 127.0.0.1 at 2018-07-24 20:12:27 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oImCYrIcGUxyCM+4lGSjfL38i2brNnC9aB5D9XzAQRkI0AHjz/icHEgKxdiFeyPsJq84alUTH4KMCjK+dTyAxA==", "user"=>{"first_name"=>"asddas", "last_name"=>"asdas", "email"=>"asdasd", "password"=>"[FILTERED]", "admin"=>"true"}, "commit"=>"Create User", "project_id"=>"4", "task_id"=>"3"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password", "admin", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "asddas"], ["last_name", "asdas"], ["email", "asdasd"], ["password", "asdasd"], ["admin", "true"], ["task_id", 3], ["created_at", "2018-07-24 17:12:27.736972"], ["updated_at", "2018-07-24 17:12:27.736972"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (143.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+Redirected to http://localhost:3000/projects/4
+Completed 302 Found in 161ms (ActiveRecord: 145.5ms)
+
+
+Started GET "/projects/4" for 127.0.0.1 at 2018-07-24 20:12:27 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 4], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 4]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 61ms (Views: 56.8ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "projects"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (88.1ms)[0m  [1m[35mCREATE TABLE "projects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "summary" text, "start_date" date, "end_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "tasks"[0m
+  ↳ db/schema.rb:24
+  [1m[35m (76.1ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "status" varchar, "project_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:24
+  [1m[35m (77.0ms)[0m  [1m[35mCREATE  INDEX "index_tasks_on_project_id" ON "tasks" ("project_id")[0m
+  ↳ db/schema.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:34
+  [1m[35m (72.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "password" varchar, "admin" varchar, "task_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:34
+  [1m[35m (99.7ms)[0m  [1m[35mCREATE  INDEX "index_users_on_task_id" ON "users" ("task_id")[0m
+  ↳ db/schema.rb:34
+  [1m[35m (65.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (43.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180723075655)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (60.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180722045204),
+(20180720183523);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (83.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-24 17:14:12.681420"], ["updated_at", "2018-07-24 17:14:12.681420"]]
+  ↳ db/schema.rb:13
+  [1m[35m (60.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "projects"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (75.8ms)[0m  [1m[35mCREATE TABLE "projects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "summary" text, "start_date" date, "end_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "tasks"[0m
+  ↳ db/schema.rb:24
+  [1m[35m (79.8ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "status" varchar, "project_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:24
+  [1m[35m (78.7ms)[0m  [1m[35mCREATE  INDEX "index_tasks_on_project_id" ON "tasks" ("project_id")[0m
+  ↳ db/schema.rb:24
+  [1m[35m (1.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:34
+  [1m[35m (82.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "password" varchar, "admin" varchar, "task_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:34
+  [1m[35m (76.0ms)[0m  [1m[35mCREATE  INDEX "index_users_on_task_id" ON "users" ("task_id")[0m
+  ↳ db/schema.rb:34
+  [1m[35m (96.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (42.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180723075655)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (89.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180722045204),
+(20180720183523);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (85.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-24 17:14:13.494686"], ["updated_at", "2018-07-24 17:14:13.494686"]]
+  ↳ db/schema.rb:13
+  [1m[35m (66.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2018-07-24 17:14:13.567686"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (57.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-07-24 20:15:19 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 380ms (Views: 365.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:15:27 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 84ms (Views: 75.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2018-07-24 20:15:29 +0300
+Processing by ProjectsController#new as HTML
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (15.5ms)
+  Rendered projects/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 73ms (Views: 57.7ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 20:15:34 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nrDwEky2hVZ4kmPFjbjEH/HCj4p6xLbXCcioxtGE0vdOO0586AnohotDSqluGGA5IxxlXIhX7m+0K5OSfrYm5g==", "project"=>{"name"=>"", "summary"=>"", "start_date"=>"", "end_date"=>""}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  Rendering projects/new.html.erb within layouts/application
+  Rendered projects/_form.html.erb (5.0ms)
+  Rendered projects/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 63ms (Views: 55.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2018-07-24 20:15:49 +0300
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8JcEgNGZJhjIEndH8TodYX+mpGgAeFgcd2u8Lu1NLJM+OFSb/9MZZ+Wb5aRzMZ1mfk7jGHy1gmRKoxqhzOBMHQ==", "project"=>{"name"=>"sdfds", "summary"=>"sdfdsf", "start_date"=>"2018-07-10", "end_date"=>"2018-07-25"}, "commit"=>"Create Project"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[36mProject Create (0.5ms)[0m  [1m[32mINSERT INTO "projects" ("name", "summary", "start_date", "end_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "sdfds"], ["summary", "sdfdsf"], ["start_date", "2018-07-10"], ["end_date", "2018-07-25"], ["created_at", "2018-07-24 17:15:49.711959"], ["updated_at", "2018-07-24 17:15:49.711959"]]
+  ↳ app/controllers/projects_controller.rb:21
+  [1m[35m (117.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:21
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 125ms (ActiveRecord: 118.4ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 20:15:49 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 92ms (Views: 69.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:15:52 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/1/edit" for 127.0.0.1 at 2018-07-24 20:16:00 +0300
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:15
+  Rendering projects/edit.html.erb within layouts/application
+  Rendered projects/_form.html.erb (3.7ms)
+  Rendered projects/edit.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 68ms (Views: 45.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:02 +0300
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yKdMhrC49MGA+mOu6Bb01bXsxJloZt7x1eCFhcYpy00lan8zTvc04nZ4OWTD0izfUI5mfD09m4u4OoO5anICiA==", "project"=>{"name"=>"sdfds", "summary"=>"sdfdsf", "start_date"=>"2018-07-10", "end_date"=>"2018-07-25"}, "commit"=>"Update Project", "id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:31
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:02 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 49ms (Views: 46.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/1/tasks/new" for 127.0.0.1 at 2018-07-24 20:16:04 +0300
+Processing by TasksController#new as HTML
+  Parameters: {"project_id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:9
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 72ms (Views: 67.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/projects/1/tasks" for 127.0.0.1 at 2018-07-24 20:16:07 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hBI2qCbiiroz5YPmdg1/B8Jye694FJEmS0AjDClB+Md4EI6GhYT0TCkkSKv2woeJm3sOMHd3UVoHgBn5kXwaYA==", "task"=>{"title"=>"asdsad", "description"=>"", "status"=>""}, "commit"=>"Create Task", "project_id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 64ms (Views: 51.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/projects/1/tasks" for 127.0.0.1 at 2018-07-24 20:16:13 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cCDH9ZRoRkAe/EJc8aRQhlpn6PRCW3Y+IeHlEnn9nkS+j5fuuiJ5PzN10L9zr9CBW4+vhD6WrEYcKUOdWFD+yg==", "task"=>{"title"=>"asdsa", "description"=>"asdas", "status"=>"new"}, "commit"=>"Create Task", "project_id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[36mTask Create (1.5ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "description", "status", "project_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "asdsa"], ["description", "asdas"], ["status", "new"], ["project_id", 1], ["created_at", "2018-07-24 17:16:13.794240"], ["updated_at", "2018-07-24 17:16:13.794240"]]
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (122.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:20
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 133ms (ActiveRecord: 124.8ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:13 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 1]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 55ms (Views: 50.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/projects/1/tasks/1/edit" for 127.0.0.1 at 2018-07-24 20:16:16 +0300
+Processing by TasksController#edit as HTML
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:13
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:14
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 63ms (Views: 57.3ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/projects/1/tasks/1" for 127.0.0.1 at 2018-07-24 20:16:18 +0300
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NhQ6YwKkBheVf1QTv888hAW6MO9smVFE26ZGTibc5EhtFz3Ui8Lmz2wgCn3oN7WeOYoFkiqoLp+XgFhLVONmZA==", "task"=>{"title"=>"asdsa", "description"=>"asdas", "status"=>"new"}, "commit"=>"Update Task", "project_id"=>"1", "id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:28
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:29
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:31
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:31
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 8ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:18 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 1]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/projects/1/tasks/1" for 127.0.0.1 at 2018-07-24 20:16:21 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"project_id"=>"1", "id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:4
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:5
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."task_id" = ? LIMIT ?[0m  [["task_id", 1], ["LIMIT", 1]]
+  ↳ app/views/tasks/show.html.erb:17
+  Rendered tasks/show.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 80ms (Views: 74.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/projects/1/tasks/1/users/new" for 127.0.0.1 at 2018-07-24 20:16:22 +0300
+Processing by UsersController#new as HTML
+  Parameters: {"project_id"=>"1", "task_id"=>"1"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:3
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:4
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 83ms (Views: 77.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/projects/1/tasks/1/users" for 127.0.0.1 at 2018-07-24 20:16:24 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AbT3UXS9l+0qV2kh+9jmRJbH6WSXJYFzneR9sSDApOpWZel6zzuu4tCTA2zUDMfR1yIC/cKoeno+zy/jsXKXtQ==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "admin"=>""}, "commit"=>"Create User", "project_id"=>"1", "task_id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 64ms (Views: 45.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/projects/1/tasks/1/users" for 127.0.0.1 at 2018-07-24 20:16:36 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c4lgvOxgX+HnAkRtkqNseR6zKE+bS0+mMCRF1Zoq9Qu9JjCnwipgnsqL1o4QqOx+H1tvP+eGld4N7ONau4eVhQ==", "user"=>{"first_name"=>"asdsad", "last_name"=>"asdasd", "email"=>"asdasd", "password"=>"[FILTERED]", "admin"=>"true"}, "commit"=>"Create User", "project_id"=>"1", "task_id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password", "admin", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "asdsad"], ["last_name", "asdasd"], ["email", "asdasd"], ["password", "adsad"], ["admin", "true"], ["task_id", 1], ["created_at", "2018-07-24 17:16:36.203144"], ["updated_at", "2018-07-24 17:16:36.203144"]]
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (107.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:11
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 125ms (ActiveRecord: 109.9ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:36 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 1]]
+  ↳ app/views/projects/show.html.erb:32
+  Rendered projects/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 48ms (Views: 45.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/projects/1/tasks/1" for 127.0.0.1 at 2018-07-24 20:16:43 +0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FJZ16h58cEgU9oB0N3A3QYonBL3b32MmrsLtIEoMyBvaOSXxMDZPNzl/Epe1e7dGi89DzacSuV6TCkuva6GolQ==", "project_id"=>"1", "id"=>"1"}
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:39
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ? AND "tasks"."id" = ? LIMIT ?[0m  [["project_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:40
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."task_id" = ?[0m  [["task_id", 1]]
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[36mUser Destroy (1.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[36mTask Destroy (0.2ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/tasks_controller.rb:41
+  [1m[35m (66.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:41
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 94ms (ActiveRecord: 69.0ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:44 +0300
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:7
+  Rendering projects/show.html.erb within layouts/application
+  [1m[36mTask Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "tasks" WHERE "tasks"."project_id" = ? LIMIT ?[0m  [["project_id", 1], ["LIMIT", 1]]
+  ↳ app/views/projects/show.html.erb:19
+  Rendered projects/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:16:45 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  [1m[36mProject Load (0.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:15
+  Rendered projects/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 50ms (Views: 47.2ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/projects/1" for 127.0.0.1 at 2018-07-24 20:16:51 +0300
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FGjhLE457R8FXXEWjJLPUxSN3EArw87nxwDbVXql+fXax7E3YHPSYCjU4/UOmU9UFWWbMFcOFJ/6yH3aWwiZew==", "id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT  "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/projects_controller.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."project_id" = ?[0m  [["project_id", 1]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[36mProject Destroy (1.0ms)[0m  [1m[31mDELETE FROM "projects" WHERE "projects"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/projects_controller.rb:40
+  [1m[35m (77.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/projects_controller.rb:40
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 85ms (ActiveRecord: 78.8ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2018-07-24 20:16:51 +0300
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "projects" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/projects/index.html.erb:1
+  Rendered projects/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "projects"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (84.8ms)[0m  [1m[35mCREATE TABLE "projects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "summary" text, "start_date" date, "end_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "tasks"[0m
+  ↳ db/schema.rb:24
+  [1m[35m (64.4ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "status" varchar, "project_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:24
+  [1m[35m (77.0ms)[0m  [1m[35mCREATE  INDEX "index_tasks_on_project_id" ON "tasks" ("project_id")[0m
+  ↳ db/schema.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:34
+  [1m[35m (98.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "password" varchar, "admin" varchar, "task_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:34
+  [1m[35m (102.4ms)[0m  [1m[35mCREATE  INDEX "index_users_on_task_id" ON "users" ("task_id")[0m
+  ↳ db/schema.rb:34
+  [1m[35m (74.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (51.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180723075655)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (59.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180722045204),
+(20180720183523);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (71.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (2.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-24 17:17:06.241366"], ["updated_at", "2018-07-24 17:17:06.241366"]]
+  ↳ db/schema.rb:13
+  [1m[35m (50.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "projects"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (86.0ms)[0m  [1m[35mCREATE TABLE "projects" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "summary" text, "start_date" date, "end_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "tasks"[0m
+  ↳ db/schema.rb:24
+  [1m[35m (83.0ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "status" varchar, "project_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:24
+  [1m[35m (75.8ms)[0m  [1m[35mCREATE  INDEX "index_tasks_on_project_id" ON "tasks" ("project_id")[0m
+  ↳ db/schema.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  ↳ db/schema.rb:34
+  [1m[35m (62.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "password" varchar, "admin" varchar, "task_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:34
+  [1m[35m (83.7ms)[0m  [1m[35mCREATE  INDEX "index_users_on_task_id" ON "users" ("task_id")[0m
+  ↳ db/schema.rb:34
+  [1m[35m (108.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (80.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20180723075655)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (99.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20180722045204),
+(20180720183523);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (94.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-07-24 17:17:07.119825"], ["updated_at", "2018-07-24 17:17:07.119825"]]
+  ↳ db/schema.rb:13
+  [1m[35m (65.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.5ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2018-07-24 17:17:07.189873"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (71.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9

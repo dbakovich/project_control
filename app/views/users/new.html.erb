@@ -1,45 +1,47 @@
-<h2>Add a user:</h2>
+<h2 class="text-center">Add a user:</h2>
 
+<div class="row align-items-center justify-content-center">
 <%= form_with(model: [ @project,@task, @task.users.build], local: true) do |form| %>
   <% if @task.errors.any? %>
     <div id="error_explanation">
-      <h2>Ouch!
+      <h2 class="text-center">Ouch!
         <%= pluralize(@task.errors.count, "error") %> prohibited
         this user from being saved:
       </h2>
-      <ul>
+      <ul class="text-center">
         <% @task.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-          <h3>Notice that:</h3>
-          <li>Each field can't be blank.</li>
-          <li>Admin value could only be 'true' or 'false'.</li>
+          <li class="text-center"><%= msg %></li>
+          <h3 class="text-center">Notice that:</h3>
+          <li class="text-center">Each field can't be blank.</li>
+          <li class="text-center">Password's length must be min 4 characters.</li>
+          <li class="text-center">Admin value could only be 'true' or 'false'.</li>
         <% end %>
       </ul>
     </div>
   <% end %>
-  <p>
+  <p class="text-center">
     <%= form.label :first_name %><br>
     <%= form.text_field :first_name %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :last_name %><br>
     <%= form.text_field :last_name %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :email %><br>
     <%= form.text_field :email %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :password %><br>
     <%= form.text_field :password %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.label :admin %><br>
     <%= form.text_field :admin %>
   </p>
-  <p>
+  <p class="text-center">
     <%= form.submit %>
   </p>
 <% end %>
-
-<%= link_to 'Back', projects_path %>
+</div>
+<p class="text-center"><%= link_to 'Back', projects_path %></p>
