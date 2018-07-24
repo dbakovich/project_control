@@ -1,0 +1,63 @@
+<h1>Project details</h1>
+<p>
+  <strong>Name:</strong>
+  <%= @project.name %>
+</p>
+<p>
+  <strong>Summary:</strong>
+  <%= @project.summary %>
+</p>
+<p>
+  <strong>Start date:</strong>
+  <%= @project.start_date %>
+</p>
+<p>
+  <strong>End date:</strong>
+  <%= @project.end_date %>
+</p>
+
+<% if @project.tasks.any? %>
+<h2>Tasks</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Status</th>
+  </tr>
+
+<% @project.tasks.each do |task| %>
+  <tr>
+    <td><%= task.title %></td>
+    <td><%= task.description %></td>
+    <td><%= task.status %></td>
+    <td>| <%= link_to 'Edit task', edit_project_task_path(task) %> |</td>
+    <td>| <%= link_to 'Destroy task', [task.project, task],
+                method: :delete,
+                      data: { confirm: 'Are you sure?' } %> |</td>
+    <td>| <%= link_to 'Show users', project_task_path(task) %> |</td>
+  </tr>
+<% end %>
+</table>
+
+
+<td><%= link_to 'Add task', new_project_task_path(@project) %> |</td>
+<td><%= link_to 'Back', projects_path %></td>
+<% else %>
+  <% if @project.errors.any? %>
+    <div id="error_explanation">
+      <h2>Ouch!
+        <%= pluralize(@project.errors.count, "error") %> prohibited
+        this task from being saved:
+      </h2>
+      <ul>
+        <% @project.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ <h3>There are no tasks..</h3>
+  <td><%= link_to 'Add one!', new_project_task_path(@project) %> |</td>
+  <td><%= link_to 'Back', projects_path %></td>
+<% end %>

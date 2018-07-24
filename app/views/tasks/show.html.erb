@@ -1,0 +1,44 @@
+<h1>Task details</h1>
+<p>
+  <strong>Title:</strong>
+  <%= @task.title %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @task.description %>
+</p>
+<p>
+  <strong>Status:</strong>
+  <%= @task.status %>
+</p>
+
+<h2>Users</h2>
+
+<% if @task.users.any? %>
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Email</th>
+    <th>Password</th>
+    <th>Admin</th>
+  </tr>
+
+  <% @task.users.each do |user| %>
+    <tr>
+      <td><%= user.first_name %></td>
+      <td><%= user.last_name %></td>
+      <td><%= user.email %></td>
+      <td><%= user.password %></td>
+      <td><%= user.admin %></td>
+    </tr>
+  <% end %>
+</table>
+
+<td><%= link_to 'Add user', new_project_task_user_path(@project,@task) %> |</td>
+<td><%= link_to 'Back', projects_path %></td>
+<% else %>
+<h3>There are no users..</h3>
+  <td><%= link_to 'Add one!', new_project_task_user_path(@project,@task) %> |</td>
+  <td><%= link_to 'Back', projects_path %></td>
+<% end %>

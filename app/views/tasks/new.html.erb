@@ -1,0 +1,41 @@
+<h1>Good decision!</h1>
+
+<h2>Add a task:</h2>
+
+<%= form_with(model: [ @project, @project.tasks.build], local: true) do |form| %>
+  <% if @project.errors.any? %>
+    <div id="error_explanation">
+      <h2>Ouch!
+        <%= pluralize(@project.errors.count, "error") %> prohibited
+        this task from being saved:
+      </h2>
+      <ul>
+        <% @project.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+          <h3>Notice that:</h3>
+          <li>Title's length must be min 4 characters.</li>
+          <li>Description's length could be max 50 characters.</li>
+          <li>Each field can't be blank.</li>
+          <li>Status value only could be 'new', 'inprogress' or 'done'.</li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <p>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </p>
+  <p>
+    <%= form.label :description %><br>
+    <%= form.text_area :description %>
+  </p>
+  <p>
+    <%= form.label :status %><br>
+    <%= form.text_field :status %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', projects_path %>
